@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programador Fullstack Sênior - Consultoria e Projetos</title>
+    <!-- Inclui Tailwind CSS para estilização rápida e moderna -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Define a fonte Inter como padrão para a página */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* light blue-50 */
+        }
+        
+        /* Define a animação para a seta piscante */
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+        .blinking-arrow {
+            animation: blink 1s infinite;
+        }
+
+        /* Estilo para um botão de CTA mais robusto */
+        .cta-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.5), 0 4px 6px -2px rgba(59, 130, 246, 0.1);
+        }
+        .cta-button:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 15px 20px -5px rgba(59, 130, 246, 0.7), 0 6px 8px -3px rgba(59, 130, 246, 0.2);
+        }
+        
+        /* Estilos de gradiente para fundo de destaque */
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen antialiased">
+
+    <!-- Header / Navbar (Opcional, mas bom para credibilidade) -->
+    <header class="py-4 shadow-md bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-xl font-extrabold text-blue-700">DEV SÊNIOR</h1>
+        </div>
+    </header>
+
+    <!-- Seção Principal (Hero) -->
+    <main class="py-12 md:py-20 hero-gradient">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-block px-3 py-1 text-sm font-semibold rounded-full bg-yellow-400 text-gray-900 mb-4">Programador Fullstack Sênior</span>
+            
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4">
+                Construa sua Solução Digital com um Especialista
+            </h2>
+            
+            <p class="text-xl text-blue-200 mb-8 max-w-3xl mx-auto">
+                Transformo ideias em softwares robustos, escaláveis e com o frontend que o seu negócio precisa para crescer.
+            </p>
+            
+            <!-- CHAMADA PRINCIPAL (WhatsApp) -->
+            <div class="flex flex-col items-center justify-center space-y-4">
+                
+                <!-- Seta Piscante (Blinking Arrow) -->
+                <div class="blinking-arrow text-white text-5xl transform -rotate-90">
+                    &#10148; 
+                </div>
+
+                <a href="https://wa.me/5562981815263" target="_blank" class="cta-button bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-xl text-2xl flex items-center space-x-3">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.04 2C6.58 2 2.14 6.44 2.14 11.9c0 1.93.55 3.76 1.62 5.37l-1.8 4.93 5.09-1.5c1.47.8 3.12 1.25 4.93 1.25 5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2zm3.32 14.15c-.17.48-.99.96-1.39 1.01-.39.04-.84.05-1.27.02-.42-.03-1.02-.13-1.63-.38-.6-.25-1.89-.93-2.67-2.31-.78-1.38-1.03-2.61-1.03-2.82s.18-.32.4-.53c.2-.21.43-.53.64-.78.2-.25.27-.4.4-.66.13-.26.08-.48-.05-.71-.13-.23-.62-1.48-.86-2.02-.24-.54-.48-.46-.66-.46-.17 0-.36-.02-.55-.02-.2 0-.53.07-.8.32-.26.25-1 .98-1 2.37 0 1.4.98 2.76 1.11 2.95.14.2.3.48.56.76 1.02 1.11 2.5 1.7 2.68 1.83.18.13.34.18.78.3.43.12 1.15.4 1.65.34.49-.06.99-.4 1.14-.76.14-.37.14-.68.1-.76-.04-.08-.13-.12-.27-.21z"/>
+                    </svg>
+                    Fale Agora - WhatsApp (62) 98181-5263
+                </a>
+            </div>
+            
+        </div>
+    </main>
+
+    <!-- Seção de Habilidades (Destaque das Competências Fullstack) -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-gray-900 mb-10 border-b-2 pb-2 border-blue-500 inline-block">
+                Minhas Habilidades Fullstack
+            </h3>
+            
+            <p class="text-lg text-gray-600 mb-12">
+                Como programador Fullstack Sênior, sou responsável por todo o ciclo de vida do software, garantindo que a aplicação seja coesa, escalável e performática, do banco de dados à interface do usuário.
+            </p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Habilidade 1: Frontend Excellence -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105 border-t-4 border-blue-500">
+                    <div class="text-2xl font-bold text-blue-700 mb-3">Frontend Impecável</div>
+                    <p class="text-gray-700 text-sm">
+                        Desenvolvimento de interfaces de usuário (UI) com foco total em **experiência do usuário (UX)** e performance. Criação de layouts responsivos usando **Tailwind CSS**, **React**, **Angular** ou **Vue.js**, garantindo que o seu frontend seja rápido e visualmente perfeito para a campanha.
+                    </p>
+                </div>
+
+                <!-- Habilidade 2: Backend Escalável -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105 border-t-4 border-green-500">
+                    <div class="text-2xl font-bold text-green-700 mb-3">Backend Robusto e APIs</div>
+                    <p class="text-gray-700 text-sm">
+                        Construção de APIs RESTful e GraphQL de alto desempenho. Expertise em linguagens como **Node.js (Express/NestJS)**, **Python (Django/Flask)**, e **Java (Spring)**, focando em segurança, arquitetura de microsserviços e lógica de negócios complexa.
+                    </p>
+                </div>
+
+                <!-- Habilidade 3: Banco de Dados e Otimização -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105 border-t-4 border-yellow-500">
+                    <div class="text-2xl font-bold text-yellow-700 mb-3">Dados e Persistência</div>
+                    <p class="text-gray-700 text-sm">
+                        Modelagem e gerenciamento avançado de dados. Proficiência em bancos de dados relacionais (**PostgreSQL**, **MySQL**) e NoSQL (**MongoDB**, **Redis, Firestore/Firebase**), incluindo otimização de consultas complexas para máxima velocidade.
+                    </p>
+                </div>
+                
+                <!-- Habilidade 4: DevOps e Cloud -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105 border-t-4 border-red-500">
+                    <div class="text-2xl font-bold text-red-700 mb-3">DevOps e Infraestrutura Cloud</div>
+                    <p class="text-gray-700 text-sm">
+                        Automação de processos de deploy (CI/CD), conteinerização com **Docker** e experiência em plataformas Cloud como **AWS**, **GCP** e **Azure**. Garanto que seu código vá para o ar de forma rápida e segura.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Segunda Chamada para Ação (Rodapé) -->
+    <section class="py-10 bg-blue-700">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h4 class="text-2xl sm:text-3xl font-bold text-white mb-4">
+                Pronto para iniciar seu projeto de alto impacto?
+            </h4>
+            <p class="text-lg text-blue-200 mb-6">
+                Entre em contato direto para discutirmos sua necessidade e a melhor solução tecnológica.
+            </p>
+            
+            <div class="flex flex-col items-center justify-center space-y-4">
+                
+                <!-- Seta Piscante (Blinking Arrow) - Repetida para reforço -->
+                <div class="blinking-arrow text-white text-5xl transform -rotate-90">
+                    &#10148; 
+                </div>
+
+                <a href="https://wa.me/5562981815263" target="_blank" class="cta-button bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-3 px-6 rounded-xl text-xl flex items-center space-x-3 shadow-lg">
+                    <!-- Ícone de Telefone ou WhatsApp -->
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.04 2C6.58 2 2.14 6.44 2.14 11.9c0 1.93.55 3.76 1.62 5.37l-1.8 4.93 5.09-1.5c1.47.8 3.12 1.25 4.93 1.25 5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2zm3.32 14.15c-.17.48-.99.96-1.39 1.01-.39.04-.84.05-1.27.02-.42-.03-1.02-.13-1.63-.38-.6-.25-1.89-.93-2.67-2.31-.78-1.38-1.03-2.61-1.03-2.82s.18-.32.4-.53c.2-.21.43-.53.64-.78.2-.25.27-.4.4-.66.13-.26.08-.48-.05-.71-.13-.23-.62-1.48-.86-2.02-.24-.54-.48-.46-.66-.46-.17 0-.36-.02-.55-.02-.2 0-.53.07-.8.32-.26.25-1 .98-1 2.37 0 1.4.98 2.76 1.11 2.95.14.2.3.48.56.76 1.02 1.11 2.5 1.7 2.68 1.83.18.13.34.18.78.3.43.12 1.15.4 1.65.34.49-.06.99-.4 1.14-.76.14-.37.14-.68.1-.76-.04-.08-.13-.12-.27-.21z"/>
+                    </svg>
+                    WhatsApp: (62) 98181-5263
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="py-6 text-center text-sm text-gray-500 bg-gray-100">
+        &copy; 2025 Programador Fullstack Sênior. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
